@@ -1,0 +1,17 @@
+<html>
+
+<head>
+	<script src="js/function.js"></script>
+	<link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body oncontextmenu="showMyMenu(event)" onclick="hideMenu()" onkeydown="execShortKey(event)">
+	<ul id="myContextMenu">
+		<li onclick="window.open()">Open <u>N</u>ew Window</li>
+		<li onclick="myPrint()"><u>P</u>rint</li>
+		<li onclick="hideMenu()">E<u>x</u>it</li>
+		<li onclick="window.close()"><u>C</u>lose</li>
+	</ul>
+</body>
+
+</html>

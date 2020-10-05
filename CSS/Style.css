@@ -1,0 +1,29 @@
+ #myContextMenu {
+   display: none;
+   list-style: none;
+   position: absolute;
+   z-index: 999;
+   box-shadow: 5px 5px 5px gray;
+   width: 200px;
+   height: 180px;
+   border: 1px solid gray;
+   background-color: rgb(234, 231, 245);
+   padding: 0px;
+   font-family: verdana;
+ }
+
+ #myContextMenu li {
+   height: 30px;
+   border-bottom: 1px solid silver;
+   padding-top: 15px;
+   padding-left: 20px;
+ }
+
+ #myContextMenu li:hover {
+   background-color: orange;
+   cursor: pointer;
+ }
+
+ #myContextMenu li:last-child {
+   border: none !important;
+ }
